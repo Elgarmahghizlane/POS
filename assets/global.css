@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body, #__nuxt, #__layout {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.bg-silver { background-color: silver !important; }
+.bg-silver-25 { background-color: #eeeeee !important; }
+.bg-silver-50 { background-color: #e1e1e1 !important; }
+.bg-silver-75 { background-color: #adadad !important; }
+.bg-silver-500 { background-color:#343a40 !important; }
+.bg-black { background-color: #000000 !important; }
+
+
+.app-content .card-body {
+  height: 0; overflow-y: auto
+}
+.my-button{
+  font-weight: bold;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #343a40 !important;
+  color: #e1e1e1;
+}
+.my-button:hover {
+  color: white;
+  border-color: grey;
+}
+.my-button:focus {
+  box-shadow: 0 0 0 0.2rem #343a40;
+}
+.my-button.active {
+  background-color: #343a40 !important;
+  border-color: #a5a5a5 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
